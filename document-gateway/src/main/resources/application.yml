@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: document-gateway
+ribbon:
+  eureka:
+    enabled: false
+zuul:
+  routes:
+    document_create:
+      path: /api/_create
+      url: ${document-manager.url}

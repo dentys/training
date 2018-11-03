@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: metadata-manager
+metadata-manager:
+  url: ~
+file-manager:
+  url: ~

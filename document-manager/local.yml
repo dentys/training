@@ -1,0 +1,4 @@
+metadata-manager:
+  url: http://localhost:8800
+file-manager:
+  url: http://localhost:8810
